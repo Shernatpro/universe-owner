@@ -3,6 +3,7 @@ const path = require('path');
 
 const config = getDefaultConfig(__dirname);
 
+config.resolver.nodeModulesPaths = [path.resolve(__dirname, 'node_modules')];
 config.resolver.extraNodeModules = {
   'react-native-web': path.resolve(__dirname, 'node_modules/react-native-web'),
   'react-dom': path.resolve(__dirname, 'node_modules/react-dom'),
