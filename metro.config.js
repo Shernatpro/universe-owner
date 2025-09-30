@@ -11,5 +11,6 @@ config.resolver.extraNodeModules = {
 
 config.resolver.assetExts.push('cjs');
 config.resolver.sourceExts.push('mjs');
+config.resolver.unstable_conditionNames = ['require', 'import', 'react-native'];
 
 module.exports = config;
