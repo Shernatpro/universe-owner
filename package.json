@@ -49,6 +49,8 @@
   "overrides": {
     "expo-linking": {
       "expo-constants": "~18.0.9"
-    }
+    },
+    "metro": "0.80.0",
+    "metro-resolver": "0.80.0"
   }
 }
